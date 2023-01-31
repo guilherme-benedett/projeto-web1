@@ -55,9 +55,9 @@ img{
     height: 300px;
     border-radius: 50%;
 }
-.cursos-populares{
+#cursos-populares{
     width: 100%;
-    height: 180px;
+    height: 200px;
     background-image: linear-gradient(to top, #ff0000, #df08bc);
     color: #ffffff;
     border-radius: 20px;
@@ -77,10 +77,10 @@ h2{
 }
 .cursos > article{
     width: 100%;
-    height: 330px;
+    height: 350px;
     background-color: #ffffff;
     border-radius: 20px;
-    padding: 50px 30px;
+    padding: 70px 30px;
 }
 article > p{
     margin-bottom: 25px;
@@ -95,4 +95,12 @@ article > p{
 .get-started{
     font-weight: 700;
     color: #df08bc;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #000000;
+    position: absolute;
+    top: 0px;
+
 }

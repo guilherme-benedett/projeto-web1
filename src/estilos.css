@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 *{
     padding: 0px;
     margin: 0px;
@@ -9,29 +8,22 @@
 body{
     background-color: #0000003c;
 }
-header, main{
-    margin: 25px;
-    max-width: 480px;
-}
-header{
-    color: #ffffff;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 main{
     display: flex;
     flex-direction: column;
     gap: 90px;
 }
+header, main{
+    margin: 25px;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 header > h1 {
     color: #21244C;
-
-}
-section > h1{
-    color: #21244C;
-    font-size: 50px;
 }
 header > a{
     background-color: #21244C;
@@ -43,17 +35,21 @@ a{
     border-radius: 40px;
     font-size: 25px;
 }
+nav > a{
+    background-image: linear-gradient(to top, #ff0000, #df08bc);
+    display: inline-block;
+}
 section{
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+section > h1{
+    color: #21244C;
+    font-size: 50px;
+}
 section > p{
     line-height: 1.5em;
-}
-nav > a{
-    background-image: linear-gradient(to top, #ff0000, #df08bc);
-    display: inline-block;
 }
 .imagem{
     display: flex;
@@ -61,12 +57,13 @@ nav > a{
     align-items: center;
 }
 img{
+    display: block;
     width: 300px;
     height: 300px;
     border-radius: 50%;
 }
-#cursos-populares{
-    width: 100%;
+.cursos-populares{
+    max-width: 480px;
     height: 200px;
     background-image: linear-gradient(to top, #ff0000, #df08bc);
     color: #ffffff;
@@ -87,7 +84,7 @@ h2{
     gap: 90px;
 }
 .cursos > article{
-    width: 100%;
+    max-width: 480px;
     min-height: 375px;
     background-color: #ffffff;
     border-radius: 20px;

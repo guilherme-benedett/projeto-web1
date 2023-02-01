@@ -9,7 +9,7 @@
         display: flex;
     }
     article{
-        width: 480px;
+        width: 100%;
     }
     .cursos{
         flex-direction: row;

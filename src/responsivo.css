@@ -1,2 +1,38 @@
 @media screen and (min-width:481px) and (max-width: 768px){
+    header, main {
+        max-width: 768px;
+    }
+    .titulo-principal{
+        width: 50%;
+    }
+    div{
+        display: flex;
+    }
+    article{
+        width: 480px;
+    }
+    .cursos{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 769px) {
+    header, main {
+        min-width: 1800px;
+        margin: none;
+    }
+    .titulo-principal{
+        width: 50%;
+    }
+    div{
+        display: flex;
+    }
+    article{
+        max-width: 480px;
+    }
+    .cursos{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
 }

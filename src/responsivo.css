@@ -1,38 +1,57 @@
 @media screen and (min-width:481px) and (max-width: 768px){
-    header, main {
-        max-width: 768px;
+    main{
+        max-width: 900px;
+        margin: auto;
     }
-    .titulo-principal{
+    .primeira-secao > article{
         width: 50%;
+        margin: 0px 50px;
     }
-    div{
-        display: flex;
+    .imagem{
+        border-radius: 10px;
+        height: 500px;
     }
-    article{
-        width: 100%;
+    section{
+        flex-direction: row;
+        align-items: center;
     }
     .cursos{
         flex-direction: row;
         flex-wrap: wrap;
+        gap: 20px;
     }
+    aside{
+        height: 375px;
+    }
+
 }
 @media screen and (min-width: 769px) {
-    header, main {
-        min-width: 1800px;
-        margin: none;
+    main{
+        max-width: 1800px;
+        margin: auto;
+    }
+    .primeira-secao > article{
+        width: 30%;
+        margin-right: 100px;
     }
     .titulo-principal{
-        width: 50%;
+        width: 60%;
     }
-    div{
-        display: flex;
+    section{
+        flex-direction: row;
+        align-items: center;
     }
-    article{
-        max-width: 480px;
+    .imagem{
+        border-radius: 10px;
+        height: 400px;
     }
     .cursos{
         flex-direction: row;
         flex-wrap: wrap;
+        gap: 20px;
     }
-    
+    aside{
+        height: 375px;
+    }
+
 }

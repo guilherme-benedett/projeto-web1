@@ -1,6 +1,6 @@
 @media screen and (min-width:481px) and (max-width: 768px){
-    main{
-        max-width: 900px;
+    header, main{
+        width: 70vw;
         margin: auto;
     }
     .primeira-secao > article{
@@ -26,8 +26,8 @@
 
 }
 @media screen and (min-width: 769px) {
-    main{
-        max-width: 1800px;
+    header, main{
+        width: 70vw;
         margin: auto;
     }
     .primeira-secao > article{

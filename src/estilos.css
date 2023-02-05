@@ -7,27 +7,32 @@
 }
 body{
     background-color: #00000013;
+    width: 100vw;
 }
 header{
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 23px;
 }
 header > h1 {
     color: #21244C;
 }
 header > a{
     background-color: #21244C;
+    font-size: 30px;
 }
 header, main{
-    margin: 25px;
+    width: 80vw;
+    margin: auto;
+    overflow-x: none;
 }
 a{
     color: #ffffff;
     text-decoration: none;
-    padding: 20px;
-    border-radius: 40px;
+    padding: 30px;
+    border-radius: 50px;
     font-size: 25px;
 }
 article > a{
@@ -46,16 +51,6 @@ article > h1{
 }
 section > p{
     line-height: 1.5em;
-}
-.imagem{
-    background-image: url('../src/imagens/imagem.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    margin-top: 30px;
 }
 .cursos{
     display: flex;

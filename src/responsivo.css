@@ -1,56 +1,67 @@
 @media screen and (min-width:481px) and (max-width: 768px){
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
     header, main{
-        width: 70vw;
-        margin: auto;
+        width: 90vw;
     }
-    .primeira-secao > article{
-        margin: 0px 50px;
-    }
-    .imagem{
-        border-radius: 10px;
-        height: 500px;
-    }
-    section{
+    .primeira-secao{
         flex-direction: row;
-        align-items: center;
     }
-    .cursos{
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-    aside{
-        height: 375px;
-    }
-
-}
-@media screen and (min-width: 769px) {
-    header, main{
-        width: 70vw;
-        margin: auto;
-    }
-    .primeira-secao > article{
-        width: 30%;
-        margin-right: 100px;
-    }
-    .titulo-principal{
+    picture{
         width: 60%;
     }
-    section{
+    .cursos{
         flex-direction: row;
-        align-items: center;
+        flex-wrap: wrap;
     }
-    .imagem{
-        border-radius: 10px;
-        height: 400px;
+    .cursos > article
+    {
+        width: 45%;
+    }
+    .cursos > article > p{
+        font-size: 19px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+}
+@media screen and (min-width: 769px) {
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    header{
+        align-items: end;
+    }
+    header, main{
+        width: 92vw;
+        margin: auto;
+    }
+    .primeira-secao{
+        flex-direction: row;
+        align-items: end;
+    }
+    picture{
+        width: 50%;
     }
     .cursos{
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 20px;
+    } 
+    main{
+        display: flex;
+        flex-direction: column;
     }
-    aside{
-        height: 375px;
+    .cursos > article
+    {
+        width: 29%;
+    }
+    .cursos > article > p{
+        font-size: 19px;
     }
 
 }

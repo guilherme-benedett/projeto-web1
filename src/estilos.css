@@ -7,7 +7,7 @@
 }
 body{
     background-color: #00000013;
-    width: 100vw;
+    width: 95vw;
 }
 header{
     height: 150px;
@@ -26,7 +26,6 @@ header > a{
 header, main{
     width: 80vw;
     margin: auto;
-    overflow-x: none;
 }
 a{
     color: #ffffff;
@@ -39,43 +38,29 @@ article > a{
     background-image: linear-gradient(to top, #ff0000, #df08bc);
     display: inline-block;
 }
-section{
+article > h1{
+    color: #21244C;
+    font-size: 50px;
+}
+.primeira-secao{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-article > h1{
-    color: #21244C;
-    font-size: 50px;
+.cursos{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 section > p{
     line-height: 1.5em;
 }
-.cursos{
-    display: flex;
-    flex-direction: column;
-}
 .cursos > article{
-    min-height: 375px;
     max-width: 480px;
     background-color: #ffffff;
     border-radius: 20px;
     padding: 20px 30px;
-    margin: 40px 0px;
-}
-aside{
-    background-image: linear-gradient(to top, #ff0000, #df08bc);
-    color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 1px 1px 5px #000000;
-    font-size: 25px;
-    min-height: 375px;
-    max-width: 480px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 50px 0px;
 }
 article > p{
     font-size: 28px;
@@ -99,7 +84,6 @@ article{
     background-color: #000000;
     padding: 20px;
     border-radius: 50%;
-    margin-top: 20px;
 }
 footer{
     height: 150px;

@@ -68,7 +68,7 @@ section > p{
     padding: 20px 30px;
 }
 .cursos > article:hover{
-    transform: scale(0.9);
+    transform: scale(1.03);
     transition: 1s ease-in-out;
     cursor: pointer;
     box-shadow: 1px 1px 10px #000000;

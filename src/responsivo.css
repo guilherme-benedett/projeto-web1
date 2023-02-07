@@ -23,13 +23,6 @@
     .cursos > article > p{
         font-size: 19px;
     }
-    .cursos-populares:hover{
-        background-image: url('../src/imagens/menina.png');
-        background-size: cover;
-        background-position: center bottom;
-        background-repeat: no-repeat;
-        color: #000000;
-    }
     main{
         display: flex;
         flex-direction: column;
@@ -57,13 +50,6 @@
     .cursos{
         flex-direction: row;
         flex-wrap: wrap;
-    }
-    .cursos-populares:hover{
-        background-image: url('../src/imagens/menina.png');
-        background-size: cover;
-        background-position: center bottom;
-        background-repeat: no-repeat;
-        color: #000000;
     }
     main{
         display: flex;
@@ -108,9 +94,10 @@
     .cursos-populares:hover{
         background-image: url('../src/imagens/menina.png');
         background-size: cover;
-        background-position: center bottom;
+        background-position: right;
         background-repeat: no-repeat;
         color: #000000;
+        transition: ease-in-out 0.5s;
     }
     
 
